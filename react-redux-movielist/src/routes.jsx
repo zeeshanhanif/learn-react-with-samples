@@ -6,9 +6,8 @@ import {
     browserHistory
 } from 'react-router'
 
-import App from './containers/app/App'
-import Movies from './components/Movies/Movies'
-import Movie from './components/Movie/Movie'
+import { App } from './containers'
+import {Movies, Movie} from './components'
 
 export default (
     <Router history={browserHistory}>
