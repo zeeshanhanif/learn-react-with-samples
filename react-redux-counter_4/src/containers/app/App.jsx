@@ -29,7 +29,7 @@ function mapDispatchToProps(dispatch) {
           // any logic and come here
 
           // then return dispatch
-          return dispatch({ type: 'DECREMENT' });
+          return dispatch({ type: 'INCREMENT' });
         }
     };
 }
