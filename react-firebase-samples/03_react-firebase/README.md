@@ -9,7 +9,7 @@ React with core firebase sdk
 Moving firebase configuration in firebase separate config file
 
 
-Update below code with your firebase configuraiton in index.js
+Update below code with your firebase configuraiton in config/index.js
 
 `var firebaseConfig = {
 
