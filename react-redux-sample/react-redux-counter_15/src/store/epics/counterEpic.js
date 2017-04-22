@@ -9,7 +9,7 @@ export default class CounterEpic {
         return action$.ofType(CounterAction.INCREMENT_WITH_VALUE)
             // Update in counter 15: receiving value from user when passed in action
             .mergeMap(({val})=>{
-                // Using hard coded values
+                // Server call, firebase call or any other business logic
                 return Observable.of(CounterAction.incrementWithValueSuccessful(val));
             })
     }
